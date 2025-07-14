@@ -4,8 +4,6 @@
 
 
 #include <Arduino.h>
-
-// Pustaka untuk Fitur Tambahan
 #include <WiFi.h>
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
@@ -36,7 +34,7 @@ String effectNames[4];
 int midiModes[4];
 int midiValues[4];
 
-// --------------- PROTOTIPE FUNGSI ---------------
+// function
 void kirimMIDI(int index);
 void tampilkanOLED(int index);
 void loadBank(int bank);
@@ -164,9 +162,7 @@ void kirimMIDI(int index) {
   }
 }
 
-/**
- * @brief Menampilkan layar utama dan memberi highlight pada preset aktif.
- */
+
 void updateOLEDHomeScreen() {
   display.clearDisplay();
   display.setTextSize(2);
@@ -179,7 +175,6 @@ void updateOLEDHomeScreen() {
     int yPos = 20 + (i * 11);
     display.setCursor(0, yPos);
 
-    // *** PERUBAHAN DI SINI ***
     // Cek apakah preset ini yang sedang aktif
     if (i == activePreset) {
       // Jika aktif, set warna menjadi teks hitam dengan background putih
@@ -199,7 +194,6 @@ void updateOLEDHomeScreen() {
 void tampilkanOLED(int index) {
   display.clearDisplay();
 
-  // *** PERUBAHAN DI SINI ***
   // 1. Gambar kotak putih di seluruh layar
   display.fillRect(0, 0, display.width(), display.height(), SSD1306_WHITE);
   // 2. Set warna teks menjadi hitam
