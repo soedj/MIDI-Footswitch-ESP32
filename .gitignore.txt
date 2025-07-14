@@ -1,0 +1,7 @@
+# Arduino build files
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+/build/
