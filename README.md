@@ -1,12 +1,11 @@
 # MIDI Footswitch Controller DIY Berbasis ESP32
 
-!(img/project(1).jpg)
+
 
 Controller MIDI 4-tombol yang dapat dikonfigurasi melalui web server, dirancang untuk mengontrol software musik seperti AmpliTube, Helix Native, dan DAW lainnya.
 
----
 
-## ✨ Fitur Utama
+##  Fitur Utama
 
 * 4 Tombol Preset per Bank dengan indikator LED
 * Fungsi Bank Up/Down menggunakan kombinasi tombol (1+2 & 3+4)
@@ -15,7 +14,7 @@ Controller MIDI 4-tombol yang dapat dikonfigurasi melalui web server, dirancang 
 * Mode MIDI yang dapat diubah (**Program Change** & **Control Change**) per tombol
 * Output MIDI melalui Serial (kompatibel dengan Hairless MIDI Bridge)
 
-## ⚙️ Komponen yang Dibutuhkan
+##  Komponen yang Dibutuhkan
 
 * ESP32 DevKitC
 * 4x Footswitch Momentary
@@ -24,11 +23,11 @@ Controller MIDI 4-tombol yang dapat dikonfigurasi melalui web server, dirancang 
 * Layar OLED SSD1306 0.96 inch
 * Kabel dan Project Box/Enclosure
 
-## 🚀 Setup & Instalasi
+##  Setup & Instalasi
 
 1.  **Hardware**: Rakit semua komponen sesuai dengan skematik yang ada di folder `/hardware`.
 2.  **Firmware**:
-    * Buka file `/firmware/Footswitch_MIDI_ESP32.ino` menggunakan Arduino IDE.
+    * Buka file `/firmware/code.ino` menggunakan Arduino IDE.
     * Instal semua pustaka yang dibutuhkan melalui Library Manager.
     * Ubah kredensial WiFi (SSID & Password) di dalam kode.
     * Upload firmware ke board ESP32 Anda.
