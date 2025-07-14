@@ -37,7 +37,7 @@ Controller MIDI 4-tombol yang dapat dikonfigurasi melalui web server, dirancang 
     * Gunakan [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) untuk membuat port MIDI virtual sebagai output dari Hairless.
     * Buka DAW (Reaper, dll) atau software gitar Anda dan atur input MIDI ke port virtual dari loopMIDI.
 
-## 🔧 Konfigurasi via Web Server
+##  Konfigurasi via Web Server
 
 1.  Saat pertama kali dinyalakan, ESP32 akan membuat jaringan WiFi. Sambungkan HP atau laptop Anda.
 2.  Buka browser dan masuk ke alamat IP `192.168.4.1` (atau IP yang tertera di Serial Monitor jika terhubung ke jaringan rumah).
