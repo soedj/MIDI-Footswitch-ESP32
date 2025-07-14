@@ -1,4 +1,4 @@
-# Arduino build files
+# Arduino build files #
 *.o
 *.a
 *.elf
