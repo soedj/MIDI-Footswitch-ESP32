@@ -40,7 +40,7 @@ Controller MIDI 4-tombol yang dapat dikonfigurasi melalui web server, dirancang 
 ##  Konfigurasi via Web Server
 
 1.  Saat pertama kali dinyalakan, ESP32 akan membuat jaringan WiFi. Sambungkan HP atau laptop Anda.
-2.  Buka browser dan masuk ke alamat IP `192.168.4.1` (atau IP yang tertera di Serial Monitor jika terhubung ke jaringan rumah).
+2.  Buka browser dan masuk ke alamat IP(IP yang tertera di Serial Monitor jika terhubung).
 3.  Atur nama, mode MIDI (PC/CC), dan nilai MIDI untuk setiap tombol dan bank.
 4.  Klik "Save Bank".
 
